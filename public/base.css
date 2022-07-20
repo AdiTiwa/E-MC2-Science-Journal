@@ -5,7 +5,3 @@
     --white: #FFFFFF;
     --black: #252525;
   }
-
-  body{
-    color:var(--maroon);
-  }
