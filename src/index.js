@@ -8,6 +8,7 @@ import {
   Route,
 } from "react-router-dom";
 import Testing1 from './routes/testing1';
+import 'flowbite';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
