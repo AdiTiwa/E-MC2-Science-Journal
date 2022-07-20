@@ -1,5 +1,3 @@
-import '../App.css'
-
 export default function Testing1() {
     return (
         <main>
