@@ -3,6 +3,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/*https://coolors.co/800000-767676-ffa319-ffffff-252525*/
+
+:root{
+  --maroon: #80000;
+  --silver: #767676;
+  --gold: #FFA319;
+  --white: #FFFFFF;
+  --black: #252525;
+
+}
 
 body {
   margin: 0;
