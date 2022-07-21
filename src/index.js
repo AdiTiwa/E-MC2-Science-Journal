@@ -8,7 +8,9 @@ import {
   Route,
 } from "react-router-dom";
 import Testing1 from './routes/testing1';
+import Gallery from './routes/gallery'
 import 'flowbite';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +19,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/testing" element={<Testing1 />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
