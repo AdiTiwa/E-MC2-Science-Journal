@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
 import Testing1 from './routes/testing1';
-import Gallery from './routes/gallery'
+import Gallery from './routes/gallery';
+import HomePage from './routes/App';
 import 'flowbite';
 
 
@@ -17,7 +17,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/testing" element={<Testing1 />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
