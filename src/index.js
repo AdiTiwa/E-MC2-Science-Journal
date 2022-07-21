@@ -6,7 +6,6 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Testing1 from './routes/testing1';
 import Gallery from './routes/gallery';
 import HomePage from './routes/App';
 import 'flowbite';
@@ -18,7 +17,6 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/testing" element={<Testing1 />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </BrowserRouter>
