@@ -1,9 +1,9 @@
 import NavBar from '../components/NavBar';
 
-export default function HomePage() {
+export default function Support() {
     return (
         <div>
-            <NavBar />
+            
         </div>
     );
 }

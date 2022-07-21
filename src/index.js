@@ -8,6 +8,9 @@ import {
 } from "react-router-dom";
 import Gallery from './routes/gallery';
 import HomePage from './routes/App';
+import About from './routes/about';
+import Resources from './routes/resources';
+import Support from './routes/support';
 import 'flowbite';
 
 
@@ -18,6 +21,9 @@ root.render(
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/resources" element={<Resources />} />
+        <Route path="/support" element={<Support />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
