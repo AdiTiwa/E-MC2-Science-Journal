@@ -28,6 +28,7 @@ root.render(
         <Route path="/support" element={<Support />} />
         <Route path="/issues" element={<Issues />} />
         <Route path="/issues/:year" element={<Issues />} />
+        <Route path="/issues/:year/:articleId" element={<Issues />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
