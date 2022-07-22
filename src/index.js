@@ -6,11 +6,13 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import { Flowbite } from 'flowbite-react'
 import Gallery from './routes/gallery';
 import HomePage from './routes/App';
 import About from './routes/about';
 import Resources from './routes/resources';
 import Support from './routes/support';
+import Issues from './routes/issues';
 import 'flowbite';
 
 
@@ -24,6 +26,8 @@ root.render(
         <Route path="/about" element={<About />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/support" element={<Support />} />
+        <Route path="/issues" element={<Issues />} />
+        <Route path="/issues/:year" element={<Issues />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

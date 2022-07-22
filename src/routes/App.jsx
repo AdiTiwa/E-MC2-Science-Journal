@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar';
 export default function HomePage() {
     return (
         <div>
-            <NavBar />
+            <NavBar active="home" />
             <br></br>
             <h1 class="text-4xl text-center">E = MC<sup>2</sup>: A High School Mathematical Science Journal</h1>
             <br></br>
