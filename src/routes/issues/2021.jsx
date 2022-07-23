@@ -9,7 +9,7 @@ import NiharikaBhattacharjee2021 from './2021/bhattacharjee'
 const issueArticles = {"testing": <TestingArticle2021 />, "niharika_bhattacharjee": <NiharikaBhattacharjee2021 /> }
 
 export default function Gallery2021() {
-    const { year, articleId } = useParams()
+    const { articleId } = useParams()
 
     if (!articleId) {
         return (

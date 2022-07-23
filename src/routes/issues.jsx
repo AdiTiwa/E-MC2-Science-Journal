@@ -6,7 +6,7 @@ import Gallery2021 from './issues/2021'
 const issueYears = { 2021: <Gallery2021 /> }
 
 export default function Issues() {
-    const { year, articleId } = useParams()
+    const { year } = useParams()
 
     if (!year) {
         return (
