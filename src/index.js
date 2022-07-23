@@ -19,18 +19,38 @@ import 'flowbite';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/resources" element={<Resources />} />
-        <Route path="/support" element={<Support />} />
-        <Route path="/issues" element={<Issues />} />
-        <Route path="/issues/:year" element={<Issues />} />
-        <Route path="/issues/:year/:articleId" element={<Issues />} />
-      </Routes>
-    </BrowserRouter>
+    <Flowbite
+      theme={{
+      theme: {
+        alert: {
+          color: {
+            primary: 'bg-primary',
+            maroon : {
+              200: '#800000',
+              100: '#8F3931',
+            },
+            silver: "#767676",
+            gold: 'FFA319',
+            ghostly_black: '#252525'
+          }
+        }
+      }
+    }}
+    dark={false}
+    >
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/support" element={<Support />} />
+          <Route path="/issues" element={<Issues />} />
+          <Route path="/issues/:year" element={<Issues />} />
+          <Route path="/issues/:year/:articleId" element={<Issues />} />
+        </Routes>
+      </BrowserRouter>
+    </Flowbite>
   </React.StrictMode>
 );
 

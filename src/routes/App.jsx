@@ -1,4 +1,5 @@
 import NavBar from '../components/NavBar';
+import { DarkThemeToggle } from 'flowbite-react'
 
 export default function HomePage() {
     return (
