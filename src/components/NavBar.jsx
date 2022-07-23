@@ -6,7 +6,7 @@ export default function NavBar({active}) {
             fluid={true}
             rounded={true}
         >
-            <Navbar.Brand href="https://flowbite.com/">
+            <Navbar.Brand href="/">
                 <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
                     E = MC<sup>2</sup>
                 </span>
