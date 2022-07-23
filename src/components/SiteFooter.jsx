@@ -6,12 +6,12 @@ class SiteFooter extends Component{
         return(
             <div>
                  <Footer container={true}>
-                    <div className="w-full text-center bg-maroon-100">
+                    <div className="w-full text-center bg-maroon-200">
                         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between text-white">
                         <Footer.Brand
-                            href="https://flowbite.com"
+                            href="/"
                             src="img/homepage/uchicago.svg"
-                            alt="Flowbite Logo"
+                            alt="E = MC^2 Logo"
                             name="E = MC^2"
                         />
                         <Footer.LinkGroup>
@@ -32,7 +32,7 @@ class SiteFooter extends Component{
                         <Footer.Divider />
                         <Footer.Copyright
                         href="#"
-                        by="The Tiwari Brothers"
+                        by="    Mazziotti Lab and the Tiwari Brothers"
                         year={2022}
                         />
                     </div>

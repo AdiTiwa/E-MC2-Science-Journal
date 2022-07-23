@@ -9,7 +9,7 @@ class ImageCarousel extends Component{
             return (
                 <div>
                     <img src={src} alt={alt} />
-                    <h1 class="absolute text-5xl text-white top-1/2 left-1/2">{caption}</h1>
+                    <h1 class="absolute text-5xl text-white top-1/2 left-36">{caption}</h1>
                 </div>
             );
         });
