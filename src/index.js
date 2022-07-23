@@ -39,6 +39,11 @@ root.render(
           color: {
             light: 'text-maroon-100 bg-white border-4 border-gray-300 hover:bg-maroon-200 hover:text-white hover:border-white focus:ring-4 focus:ring-maroon-200 disabled:hover:bg-white dark:bg-gray-600 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700'
           }
+        },
+        badge: {
+          color: {
+            light: "bg-gray-100 bg-contain tracking-tight flex flex-wrap"
+          }
         }
       },
     }}
