@@ -87,7 +87,7 @@ export default function NiharikaBhattacharjee2021() {
             </Paragraph>
             <SubHeading>Previous Research in Use in Cavity Detection</SubHeading>
             <div>
-                <ImageModal src="../../img/2021/bhattacharjee/figure1.png" float="right">Figure 1</ImageModal>
+                <ImageModal src="../../img/issues/2021/bhattacharjee/figure1.png" float="right">Figure 1</ImageModal>
                 <Paragraph>
                     The field of AI is developing technologies that enable machines to mimic human
                     behavior. It has been applied to several problems in medical imaging (i.e. Codella et al. (2019)
@@ -132,7 +132,7 @@ export default function NiharikaBhattacharjee2021() {
             <SubHeading>Explainable AI</SubHeading>
             <SubSubheading>Local Interpretable Model-Agnostic Explaination (LIME)</SubSubheading>
             <div>
-                <ImageModal src="../../img/2021/bhattacharjee/figure2.png" float="right">Figure 2</ImageModal>
+                <ImageModal src="../../img/issues/2021/bhattacharjee/figure2.png" float="right">Figure 2</ImageModal>
                 <Paragraph>
                     To develop end user trust,
                     it’s extremely important that a classifier trained to detect cavities on photographic color images
