@@ -14,6 +14,10 @@ module.exports = {
         'gold': 'FFA319',
         'ghostly-black': '#252525'
     },
+    fontFamily:{
+      sans: ['Ubuntu','sans-serif'],
+      serif: ['Ibarra Real Nova', 'serif'],
+    },
     extend: {},
   },
   plugins: [

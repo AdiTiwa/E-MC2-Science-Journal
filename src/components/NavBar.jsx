@@ -19,11 +19,11 @@ export default function NavBar({active}) {
                 >
                     Home
                 </Navbar.Link>
-                <Navbar.Link href="/gallery" active={active === "gallery" ? true : false}>
-                    Gallery
-                </Navbar.Link>
                 <Navbar.Link href="/issues" active={active === "issues" ? true : false}>
                     Issues
+                </Navbar.Link>
+                <Navbar.Link href="/gallery" active={active === "gallery" ? true : false}>
+                    Gallery
                 </Navbar.Link>
                 <Navbar.Link href="/about" active={active === "about" ? true : false}>
                     About
