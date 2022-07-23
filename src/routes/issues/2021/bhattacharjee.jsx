@@ -11,7 +11,7 @@ export default function NiharikaBhattacharjee2021() {
             <div className="pb-5">
                 <div className="bg-white hover:bg-gray-50">
                     <p className="text-4xl font-serif">Automated Dental Cavity Detection System Using Artificial Intelligence</p>
-                    <p className="text-lg font-serif">by Niharicka Bhattacharjee</p>
+                    <p className="text-lg font-serif">by Niharika Bhattacharjee</p>
                 </div>
             </div>
             <hr className="animate-pulse"></hr>

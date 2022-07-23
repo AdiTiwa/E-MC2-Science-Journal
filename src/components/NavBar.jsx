@@ -16,6 +16,7 @@ export default function NavBar({active}) {
                 <Navbar.Link
                     href="/"
                     active={active === "home" ? true : false }
+                    className="text-maroon-100"
                 >
                     Home
                 </Navbar.Link>

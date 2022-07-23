@@ -22,19 +22,25 @@ root.render(
     <Flowbite
       theme={{
       theme: {
-        alert: {
-          color: {
-            primary: 'bg-primary',
-            maroon : {
-              200: '#800000',
-              100: '#8F3931',
+        navbar: {
+          base: 'border-gray-200 bg-white px-2 py-2.5 dark:border-gray-700 dark:bg-gray-800 sm:px-4',
+          link: {
+            base: 'block py-2 pr-4 pl-3 md:p-0 text-lg',
+            active: {
+              on: 'bg-maroon-200 text-white dark:text-white md:bg-transparent md:text-maroon-200',
+              off: 'border-b border-gray-100 text-gray-700 hover:bg-maroon-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-maroon-100 md:dark:hover:bg-transparent md:dark:hover:text-white',
             },
-            silver: "#767676",
-            gold: 'FFA319',
-            ghostly_black: '#252525'
+            disabled: {
+              on: 'text-gray-400 hover:cursor-not-allowed dark:text-gray-600',
+            },
+          },
+        },
+        button: {
+          color: {
+            light: 'text-maroon-100 bg-white border-4 border-gray-300 hover:bg-maroon-200 hover:text-white hover:border-white focus:ring-4 focus:ring-maroon-200 disabled:hover:bg-white dark:bg-gray-600 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700'
           }
         }
-      }
+      },
     }}
     dark={false}
     >
