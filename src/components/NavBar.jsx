@@ -7,7 +7,7 @@ export default function NavBar({active}) {
             rounded={true}
         >
             <Navbar.Brand href="/">
-                <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+                <span className="self-center whitespace-nowrap text-xl font-semibold text-maroon-200 dark:text-white">
                     E = MC<sup>2</sup>
                 </span>
             </Navbar.Brand>

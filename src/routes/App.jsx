@@ -1,15 +1,23 @@
+import { DarkThemeToggle } from 'flowbite-react';
 import NavBar from '../components/NavBar';
+import ImageCarousel from '../components/ImageCarousel';
+import SiteFooter from '../components/SiteFooter';
 
 export default function HomePage() {
     return (
         <div>
-            <NavBar active="home" />
-            <br></br>
-            <h1 class="text-4xl text-center">E = MC<sup>2</sup>: A High School Mathematical Science Journal</h1>
-            <br></br>
-            <img class="w-4/5 mx-auto h-200" src="img/chicago.jpg" alt='Chicago Skyline'></img>
-            <br></br>
-            <br></br>
+            <body>
+                <NavBar active="home" />
+                <DarkThemeToggle></DarkThemeToggle>
+                <div class="bg-maroon-100 py-10">
+                    <h1 class="text-5xl font-serif text-white text-center">E = MC<sup>2</sup>: A High School Mathematical Science Journal</h1>            
+                </div>
+                <ImageCarousel sources={[{src: "img/homepage/chicago.jpg", alt: "chicago", caption: "One"}, 
+                    {src: "img/homepage/chicago.jpg", alt: "chicago", caption: "Two"}, 
+                    {src: "img/homepage/chicago.jpg", alt: "chicago", caption: "Three"}]} />
+                
+                <SiteFooter></SiteFooter>
+            </body>
         </div>
     );
 }
