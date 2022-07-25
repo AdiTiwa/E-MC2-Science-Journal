@@ -36,6 +36,7 @@ export default function NavBar({active}) {
                 <Navbar.Link href="/support" active={active === "support" ? true : false}>
                     Support
                 </Navbar.Link>
+                <DarkThemeToggle />
             </Navbar.Collapse>
         </Navbar>
     );

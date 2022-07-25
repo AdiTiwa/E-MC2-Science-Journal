@@ -113,7 +113,6 @@ root.render(
         },
       },
     }}
-    dark={false}
     >
       <BrowserRouter>
         <Routes>
