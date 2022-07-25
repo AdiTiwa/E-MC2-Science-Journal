@@ -24,7 +24,7 @@ class ArticleDisplay extends Component {
                     </Modal.Header>
                     <Modal.Body>
                         <div className="space-y-6 md:grid md:grid-cols-3 md:gap-5">
-                            <img src={this.props.image}/>
+                            <img src={this.props.image} alt={this.props.title + " title image"}/>
                             <p className="leading-relaxed text-lg text-gray-500 dark:text-gray-400 md:col-span-2">
                                 {trimmedString}
                             </p>
