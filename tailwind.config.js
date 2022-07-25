@@ -23,7 +23,7 @@ module.exports = {
     },
     fontFamily:{
       sans: ['Lato','sans-serif'],
-      serif: ['Ibarra Real Nova', 'serif'],
+      ibarra: ['Ibarra Real Nova', 'serif'],
     },
     extend: {},
   },

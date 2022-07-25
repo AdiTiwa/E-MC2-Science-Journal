@@ -16,7 +16,7 @@ export default function Issues() {
                 <div class="bg-maroon-200 py-10">
                     <h1 class="text-5xl font-serif text-white text-center">Issues</h1>            
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-5 px-10 md:px-15 lg:px-20">
+                <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-5 px-10 md:px-15 lg:px-20 py-3">
                     <IssueCover image="logo512.png" year="2021" />
                     <IssueCover image="logo512.png" year="2020" />
                     <IssueCover image="logo512.png" year="2019" />

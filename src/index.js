@@ -41,7 +41,7 @@ root.render(
         },
         button: {
           color: {
-            light: 'text-maroon-100 bg-white border-4 border-gray-300 hover:bg-maroon-200 hover:text-white hover:border-white focus:ring-4 focus:ring-maroon-200 disabled:hover:bg-white dark:bg-gray-600 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700'
+            light: 'text-sm font-bold text-center text-white bg-maroon-200 border-4 border-white rounded-lg hover:bg-maroon-200 hover:text-white hover:border-transparent focus:ring-4 focus:outline-none focus:ring-ghostly-black '
           }
         },
         badge: {
@@ -64,8 +64,8 @@ root.render(
             wrapper: 'w-full flex-shrink-0 transform cursor-grab snap-center',
           },
           control: {
-            base: 'inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-maroon-100 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10',
-            icon: 'h-5 w-5 text-maroon-200 dark:text-maroon-200 sm:h-6 sm:w-6',
+            base: 'inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-silver/70 group-focus:outline-none group-focus:ring-4 group-focus:ring-silver/80 dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10',
+            icon: 'h-5 w-5 text-gold dark:text-maroon-200 sm:h-6 sm:w-6',
           },
           leftControl: 'absolute top-0 left-0 flex h-full items-center justify-center px-4 focus:outline-none',
           rightControl: 'absolute top-0 right-0 flex h-full items-center justify-center px-4 focus:outline-none',
