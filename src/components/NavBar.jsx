@@ -1,13 +1,14 @@
 import { Navbar } from 'flowbite-react';
+import { DarkThemeToggle } from 'flowbite-react'
 
 export default function NavBar({active}) {
     return (
         <Navbar
             fluid={true}
-            rounded={true}
+            rounded={false}
         >
             <Navbar.Brand href="/">
-                <span className="self-center whitespace-nowrap text-xl font-semibold text-maroon-200 dark:text-white">
+                <span className="self-center whitespace-nowrap text-xl font-semibold text-white dark:text-white">
                     E = MC<sup>2</sup>
                 </span>
             </Navbar.Brand>

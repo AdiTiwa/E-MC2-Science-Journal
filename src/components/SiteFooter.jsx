@@ -6,13 +6,13 @@ class SiteFooter extends Component{
         return(
             <div>
                  <Footer container={true}>
-                    <div className="w-full text-center bg-maroon-200">
+                    <div className="w-full text-center">
                         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between text-white">
                         <Footer.Brand
                             href="/"
                             src="img/homepage/uchicago.svg"
-                            alt="E = MC^2 Logo"
-                            name="E = MC^2"
+                            alt="E = MC² Logo"
+                            name="E = MC²"
                         />
                         <Footer.LinkGroup>
                             <Footer.Link href="#">
@@ -31,9 +31,9 @@ class SiteFooter extends Component{
                         </div>
                         <Footer.Divider />
                         <Footer.Copyright
-                        href="#"
-                        by="    Mazziotti Lab and the Tiwari Brothers"
-                        year={2022}
+                            href="#"
+                            by="    Mazziotti Lab and the Tiwari Brothers"
+                            year={2022}
                         />
                     </div>
                 </Footer>

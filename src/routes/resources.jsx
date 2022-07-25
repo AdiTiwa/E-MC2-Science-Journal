@@ -1,4 +1,5 @@
 import NavBar from '../components/NavBar';
+import SiteFooter from '../components/SiteFooter';
 
 export default function Resources() {
     return (
@@ -7,6 +8,7 @@ export default function Resources() {
              <div class="bg-maroon-200 py-10">
                     <h1 class="text-5xl font-serif text-white text-center">Resources</h1>            
             </div>
+            <SiteFooter />
         </div>
     );
 }

@@ -1,5 +1,6 @@
 import ArticleDisplay from '../components/ArticleDisplay';
 import NavBar from '../components/NavBar';
+import SiteFooter from '../components/SiteFooter';
 
 function Gallery() {
     return (
@@ -19,6 +20,7 @@ function Gallery() {
                     <ArticleDisplay title="hi" tag="Testing" image="logo512.png" year="2021" id="testing">Hi</ArticleDisplay>
                 </div>
             </div>
+            <SiteFooter />
         </div>
     );
 }

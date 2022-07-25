@@ -8,7 +8,7 @@ import Article, { Heading,
 export default function NiharikaBhattacharjee2021() {
     return (
         <Article>
-            <div className="pb-5">
+            <div className="pb-5 pt-20">
                 <div className="bg-white hover:bg-gray-50">
                     <p className="text-4xl font-serif">Automated Dental Cavity Detection System Using Artificial Intelligence</p>
                     <p className="text-lg font-serif">by Niharika Bhattacharjee</p>
