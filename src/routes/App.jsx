@@ -33,7 +33,6 @@ export default function HomePage() {
                     <h1 class="text-2xl font-serif text-left">"The most beautiful thing we can experience is the mysterious. It is the source of all true art and all science. 
                     He to whom this emotion is a stranger, who can no longer pause to wonder and stand rapt in awe, is as good as dead: his eyes are closed."</h1>
                     <h1 class="text-3xl font-serif text-right">-Albert Einstein</h1>
-                    <h3 class="left"></h3>
                 </div>
 
 
