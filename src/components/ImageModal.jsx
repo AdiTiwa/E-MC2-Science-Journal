@@ -20,6 +20,7 @@ export default class ImageModal extends Component {
                     <Modal.Body>
                         <div className="w-auto">
                             <img src={this.props.src} alt={this.props.children}/>
+                            <p className="w-auto text-sm">{this.props.children}</p>
                         </div>
                     </Modal.Body>
                 </Modal>
