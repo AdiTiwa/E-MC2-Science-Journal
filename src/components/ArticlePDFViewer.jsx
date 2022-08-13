@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import { Document, Page, pdfjs } from 'react-pdf'
+import useWindowDimensions from './util/WindowDimensions'
 
 export default class ArticlePDF extends Component {
 
     constructor(props) {
         super(props)
-        this.state = { numPages: null, pageNumber: 1, scale: 1.5 }
+        this.state = { numPages: null, pageNumber: 1, scale: 1.9, pdfMargin: "", winHeight: window.innerHeight, winWidth: window.innerWidth }
     }
 
     componentDidMount() {
@@ -38,17 +39,19 @@ export default class ArticlePDF extends Component {
         this.setState({ pageNumber: newPage })
     }
 
+    
+
     render() {
         return (
             <div className = "px-10 pb-48 md:px-28 lg:px-96 flex-items-stretch pt-24">
-                <nav className='grid grid-cols-3 content-around'>
+                <nav className='grid grid-cols-3 place-content-center'>
                     <button onClick = {this.goToPreviousPage}>←</button>
-                    <p className = "pl-48">{this.state.pageNumber} or {this.state.numPages}</p>
+                    <p className = "text-center">{this.state.pageNumber} of {this.state.numPages}</p>
                     <button onClick = {this.goToNextPage}>→</button>
                 </nav>
 
                 <div className = "self-stretch">
-                    <Document file="../../../pdf/issues/2021/nallamalli_s.pdf" onLoadSuccess={this.onDocumentLoad}>
+                    <Document file="../../../pdf/issues/2021/nallamalli_s.pdf" onLoadSuccess={this.onDocumentLoad} className = {this.state.pdfMargin}>
                         <Page pageNumber={this.state.pageNumber} scale={this.state.scale} />
                     </Document>
                 </div>
