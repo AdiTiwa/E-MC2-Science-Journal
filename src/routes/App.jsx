@@ -1,6 +1,7 @@
 import NavBar from '../components/NavBar';
 import ImageCarousel from '../components/ImageCarousel';
 import SiteFooter from '../components/SiteFooter';
+import { Card } from 'flowbite-react'
 
 export default function HomePage() {
     return (
@@ -19,9 +20,35 @@ export default function HomePage() {
                 <div class="p-7">
                     <h1 class="text-5xl font-serif text-center">Mission statement/Purpose</h1>
                 </div>
+                
+                <Card>
+                    <p class="text-3xl">Read the <strong>SEMI-FINALIST</strong> articles</p>
+                    <p class="py-4 text-lg">funky text to tell the reader that we are cool</p>
 
-                <div class="p-7">
-                    <h1 class="text-5xl font-serif text-center">Section linking to different pages (read articles, issues, supporters)</h1>
+                    <div class="grid grid-cols-2">
+                        <div>
+                            <a href="/issues/2021" class="bg-maroon-200 hover:bg-maroon-100 text-white p-5 rounded text-xl">Read the latest issue</a>
+                        </div>
+                        <div>
+                            <a href="/gallery" class="bg-maroon-200 hover:bg-maroon-100 text-white p-5 rounded text-xl float-right">Open the Gallery</a>
+                        </div>
+                    </div>
+                </Card>
+                <div class="p-7 grid grid-cols-1 md:grid-cols-3 gap-5">
+                    <Card>
+                        <p class="text-3xl">Read resources on research and Regeneron</p>
+                        <p class="text-lg">More explanatory text</p>
+                    </Card>
+                    <Card>
+                        <p class="text-3xl">Contact the journal</p>
+                        <div>
+                            <p>Socials area</p>
+                        </div>
+                    </Card>
+                    <Card>
+                        <p class="text-3xl">Support the journal</p>
+                        <p class='text-xl'>Explanatory text</p>
+                    </Card>
                 </div>
 
                 <div class="p-7">
