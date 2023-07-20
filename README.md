@@ -1,6 +1,7 @@
-<<<<<<< HEAD
 # E-MC2-Science-Journal
 This code is the back-end and front-end for the science journal E=MC^2, currently maintained by Professor David Mazziotti.
+
+https://mazziotti.uchicago.edu/emc2/
 =======
 # Getting Started with Create React App
 
